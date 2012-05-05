@@ -37,6 +37,7 @@ set(scripts_STAT_SRCS
 )
 
 if(SCRIPTS)
+  #include(Bots/CMakeLists.txt)
   include(Custom/CMakeLists.txt)
   include(World/CMakeLists.txt)
   include(OutdoorPvP/CMakeLists.txt)
